@@ -11,20 +11,23 @@
     <script src="https://kit.fontawesome.com/e847528b63.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford: '#da373d',
-                    }
-                }
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+            fontFamily: {
+                manrope: ['Manrope', 'sans-serif']
             }
-        }
+          },
+        },
+      }
     </script>
 
 </head>
 
-<body>
+<body class="font-manrope">
 
     <!-- main content -->
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
